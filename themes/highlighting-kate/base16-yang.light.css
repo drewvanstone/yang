@@ -1,0 +1,23 @@
+/* Base16 Yang
+Scheme: Drew Flower (http://github.com/drewvanstone) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #FFFFFF; color: #444444 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #777777; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #FFFFFF; }
+pre.sourceCode { background-color: #FFFFFF; line-height: 125% }
+td.nums pre { background-color: #777777; line-height: 125% }
+code.sourceCode span.kw { color: #FFFFFF; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #FFFFFF} /* Keyword.Type */
+code.sourceCode span.dv { color: #777777 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #777777 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #777777 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #777777} /* Literal.String.Char */
+code.sourceCode span.st { color: #777777 } /* Literal.String */
+code.sourceCode span.co { color: #555555 } /* Comment */
+code.sourceCode span.ot { color: #777777 } /* Comment.Preproc */
+code.sourceCode span.al { color: #FFFFFF } /* Generic.Error */
+code.sourceCode span.fu { color: #777777 } /* Name.Function */
+code.sourceCode span.re { color: #FFFFFF}
+code.sourceCode span.er { color: #777777; border: 1px solid #FFFFFF } /* Error */

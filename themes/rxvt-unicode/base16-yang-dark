@@ -1,0 +1,52 @@
+! Base16 Yang
+! Scheme: Drew Flower (http://github.com/drewvanstone)
+
+! URxvt*tintColor:                      color
+! URxvt*fadeColor:                      color
+
+URxvt*background:                     #222222
+URxvt*foreground:                     #DDDDDD
+URxvt*cursorColor:                    #DDDDDD
+
+! URxvt*colorBD:                        color
+! URxvt*colorIT:                        color
+! URxvt*colorUL:                        color
+! URxvt*colorRV:                        color
+! URxvt*underlineColor:                 color
+URxvt*scrollColor:                    #DDDDDD
+! URxvt*troughColor:                    color
+URxvt*highlightColor:                 #444444
+URxvt*highlightTextColor:             #666666
+! URxvt*cursorColor2:                   color
+! URxvt*pointerColor:                   color
+! URxvt*pointerColor2:                  color
+! URxvt*borderColor:                    color
+! URxvt*tab-bg:                         colour
+! URxvt*tab-fg:                         colour
+! URxvt*tabbar-bg:                      colour
+! URxvt*tabbar-fg:                      colour
+
+URxvt*color0:                         #222222
+URxvt*color1:                         #777777
+URxvt*color2:                         #777777
+URxvt*color3:                         #777777
+URxvt*color4:                         #FFFFFF
+URxvt*color5:                         #FFFFFF
+URxvt*color6:                         #FFFFFF
+URxvt*color7:                         #DDDDDD
+URxvt*color8:                         #555555
+URxvt*color9:                         #777777
+URxvt*color10:                        #777777
+URxvt*color11:                        #777777
+URxvt*color12:                        #FFFFFF
+URxvt*color13:                        #FFFFFF
+URxvt*color14:                        #FFFFFF
+URxvt*color15:                        #FFFFFF
+
+! 256 color space
+URxvt*color16:                        #777777
+URxvt*color17:                        #777777
+URxvt*color18:                        #333333
+URxvt*color19:                        #444444
+URxvt*color20:                        #666666
+URxvt*color21:                        #777777

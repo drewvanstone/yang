@@ -1,0 +1,18 @@
+scheme: "Yang"
+author: "Drew Flower (http://github.com/drewvanstone)"
+base00: "222222" # Black
+base01: "333333" #
+base02: "444444" #
+base03: "555555" # Bright Black
+base04: "666666" #
+base05: "DDDDDD" # White
+base06: "777777" #
+base07: "FFFFFF" # Bright White
+base08: "777777" # Red
+base09: "777777" # Bright red
+base0A: "777777" # Yellow
+base0B: "777777" # Green
+base0C: "FFFFFF" # Cyan
+base0D: "FFFFFF" # Blue
+base0E: "FFFFFF" # Magenta
+base0F: "777777" #

@@ -1,0 +1,116 @@
+/*
+
+    Name:       Base16 Yang Light
+    Author:     Drew Flower (http://github.com/drewvanstone)
+
+    highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* Yang Comment */
+.hljs-comment {
+  color: #555555;
+}
+
+/* Yang Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.hljs-name,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #777777;
+}
+
+/* Yang Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #777777;
+}
+
+/* Yang Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #777777;
+}
+
+/* Yang Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #777777;
+}
+
+/* Yang Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #FFFFFF;
+}
+
+/* Yang Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #FFFFFF;
+}
+
+/* Yang Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #FFFFFF;
+}
+
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #222222;
+  display: inline-block;
+  width: 100%;
+}
+.diff .hljs-deletion {
+  background-color: #777777;
+}
+.diff .hljs-addition {
+  background-color: #777777;
+}
+.diff .hljs-change {
+  color: #FFFFFF;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #FFFFFF;
+  color: #444444;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}

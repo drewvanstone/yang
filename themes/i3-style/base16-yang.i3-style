@@ -1,0 +1,66 @@
+# vim: filetype=yaml
+# i3-style Template
+# Base16 Yang, by Drew Flower (http://github.com/drewvanstone)
+# template by Matt Parnell, @parnmatt
+---
+colors:
+    base00:              '#222222'
+    base01:              '#333333'
+    base02:              '#444444'
+    base03:              '#555555'
+    base04:              '#666666'
+    base05:              '#DDDDDD'
+    base06:              '#777777'
+    base07:              '#FFFFFF'
+    base08:              '#777777'
+    base09:              '#777777'
+    base0A:              '#777777'
+    base0B:              '#777777'
+    base0C:              '#FFFFFF'
+    base0D:              '#FFFFFF'
+    base0E:              '#FFFFFF'
+    base0F:              '#777777'
+
+meta:
+    description:         'Base16 Yang, by Drew Flower (http://github.com/drewvanstone)'
+window_colors:
+    focused:
+        border:          'base0D'
+        background:      'base0D'
+        text:            'base00'
+        indicator:       'base01'
+    focused_inactive:
+        border:          'base02'
+        background:      'base02'
+        text:            'base03'
+        indicator:       'base01'
+    unfocused:
+        border:          'base01'
+        background:      'base01'
+        text:            'base03'
+        indicator:       'base01'
+    urgent:
+        border:          'base02'
+        background:      'base08'
+        text:            'base07'
+        indicator:       'base08'
+bar_colors:
+    separator:           'base03'
+    background:          'base00'
+    statusline:          'base05'
+    focused_workspace:
+        border:          'base0D'
+        background:      'base0D'
+        text:            'base00'
+    active_workspace:
+        border:          'base02'
+        background:      'base02'
+        text:            'base07'
+    inactive_workspace:
+        border:          'base01'
+        background:      'base01'
+        text:            'base03'
+    urgent_workspace:
+        border:          'base08'
+        background:      'base08'
+        text:            'base07'

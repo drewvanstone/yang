@@ -1,0 +1,116 @@
+/*
+
+    Name:       Base16 Yang Dark
+    Author:     Drew Flower (http://github.com/drewvanstone)
+
+    highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+$base00 = #222222;
+$base01 = #333333;
+$base02 = #444444;
+$base03 = #555555;
+$base04 = #666666;
+$base05 = #DDDDDD;
+$base06 = #777777;
+$base07 = #FFFFFF;
+$base08 = #777777;
+$base09 = #777777;
+$base0a = #777777;
+$base0b = #777777;
+$base0c = #FFFFFF;
+$base0d = #FFFFFF;
+$base0e = #FFFFFF;
+$base0f = #777777;
+
+// Yang Comment
+.hljs-comment {
+  color: $base04;
+}
+
+// Yang Red
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: $base08;
+}
+
+// Yang Orange
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: $base09;
+}
+
+// Yang Yellow
+.ruby .hljs-class .hljs-title,
+.css .hljs-rules .hljs-attribute {
+  color: $base0a;
+}
+
+// Yang Green
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: $base0b;
+}
+
+// Yang Aqua
+.hljs-title,
+.css .hljs-hexcolor {
+  color: $base0c;
+}
+
+// Yang Blue
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: $base0d;
+}
+
+// Yang Purple
+.hljs-keyword,
+.javascript .hljs-function {
+  color: $base0e;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: $base00;
+  color: $base05;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}
